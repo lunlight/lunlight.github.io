@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Create and deploy an iOS app landing page with Jekyll",
   "scripts": {
-    "build.css": "postcss main.css -o _site/assets/styles.css"
+    "build.css": "postcss main.css -o _site/main.css"
   },
   "author": "Miká Kruschel",
   "license": "MIT",
