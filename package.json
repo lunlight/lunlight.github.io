@@ -2,15 +2,18 @@
   "name": "app-landing-page",
   "version": "1.0.0",
   "description": "Create and deploy an iOS app landing page with Jekyll",
-  "scripts": {},
+  "scripts": {
+    "build.css": "postcss main.css -o _site/assets/styles.css"
+  },
   "author": "Miká Kruschel",
   "license": "MIT",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.0",
     "autoprefixer": "^10.2.6",
-    "cssnano": "^4.1.11",
+    "cssnano": "^6.1.2",
     "postcss": "^8.3.5",
-    "postcss-import": "^12.0.1",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0",
     "tailwindcss": "^2.2.4"
   }
 }
